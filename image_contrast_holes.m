@@ -1,0 +1,5 @@
+I=imadjust(I)
+I=imsharpen(I)
+imshow(I)
+I=imfill(I ,'holes')
+imshow(I)
